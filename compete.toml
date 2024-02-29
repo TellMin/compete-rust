@@ -229,7 +229,7 @@ toolchain = "1.70.0"
 # Defaults to `"dev"`.
 #profile = "dev"
 
-#[submit.transpile]
-#kind = "command"
-#args = ["cargo", "equip", "--exclude-atcoder-crates", "--resolve-cfgs", "--remove", "docs", "--minify", "libs", "--rustfmt", "--check", "--bin", "{{ bin_name }}"]
-##language_id = ""
+[submit.transpile]
+kind = "command"
+args = ["cargo", "equip", "--exclude-atcoder-crates", "--resolve-cfgs", "--remove", "docs", "--minify", "libs", "--rustfmt", "--check", "--bin", "{{ bin_name }}"]
+language_id = "5054"
